@@ -1,0 +1,11 @@
+CHALLENGE DESCRIPTION:
+By capturing the traffic generated from the server you get part of the message.
+Sadly the secret is encrypted.
+Does decompiling the server file leaks any information about the used algorithm and its parameters?
+
+PRODUCED MATERIAL:
+- capture.pcapng: Wireshark capture of the server generated traffic
+- dumps/: Payloads of the different TCP sessions
+- extract.sh: Bash script for dumping the different TCP sessions
+- solver.sage.py: Script for reversing the encryption, generated with the help of SageMath
+- solver.sage: Intermediate stage
