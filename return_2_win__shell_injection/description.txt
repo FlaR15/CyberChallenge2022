@@ -1,0 +1,5 @@
+CHALLENGE DESCRIPTION:
+By decompiling ret2win32 you might find out that it leaks something.
+
+PRODUCED MATERIAL:
+- r2w.py: Script that explots the leaked secret location.
