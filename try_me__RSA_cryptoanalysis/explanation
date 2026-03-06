@@ -1,1 +1,6 @@
-TODO
+CHALLENGE DESCRIPTION:
+The challenge featured a weak implementation of RSA using static keys.
+The given materials included the public keys and encrypted messages but I do not have them anymore
+
+PRODUCED MATERIAL:
+- try.py: Script for TODO
