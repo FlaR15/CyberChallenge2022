@@ -1,6 +1,6 @@
 CHALLENGE DESCRIPTION:
 You might find out that the linux_server is vulnerable to shell injection.
-Decompile the given executable to see how to exploit it.
+Does it offer something to load for getting an exploit?
 
 PRODUCED MATERIAL:
 - fde.py: Script that executes the injection and gets the secret.
