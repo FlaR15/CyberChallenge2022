@@ -1,0 +1,35 @@
+14C 1 4
+0A8 0 5
+39C 5 0
+2B3 4 1
+1DD 3 2
+1BB 2 3
+
+a b c d e f
+
+0 7
+1 6
+2 5
+3 4
+4 3
+5 2
+
+rsi = 0
+L: ecx = el(rsi)
+se ecx-1<=0 --> ecx <= 1
+	edx = offset
+else
+	eax = 1
+	edx = offset
+	ciclo:
+		edx = edx+8
+		eax+=1
+		se eax-ecx != 0
+			loop
+		else go on
+nodeAddress(rsi) = edx
+rsi += 4
+if rsi-24 = 0 --> rsi>= 24
+	stop
+else
+	go to L
