@@ -1,4 +1,4 @@
-## Repository Structure
+## Repository structure
 
 - **Challenge Folders**  
 Each folder challenge_name__covered_topic contains the material produced for solving a challenge.
