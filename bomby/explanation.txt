@@ -4,5 +4,5 @@ Disassembly the file in order to understand which strings to provide.
 If disassembled with IDA, the file bomb.i64 (placed in the same folder) will be automatically loaded to provide some helpful information (function names, entry points, etc.)
 
 PRODUCED MATERIAL:
-- bomb.py: a file for automatizing the interaction with the bomb
-- linkedList.txt: just some reasoning for one of the stages
+- bomb.py: A file for automatizing the interaction with the bomb
+- linkedList.txt: Just some reasoning for one of the stages
