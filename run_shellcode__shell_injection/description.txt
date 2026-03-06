@@ -1,0 +1,5 @@
+CHALLENGE DESCRIPTION:
+Decompile the executable to find out how to inject some code in it.
+
+PRODUCED MATERIAL:
+- rs.py: Script that executes the injection.
